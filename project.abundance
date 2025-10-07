@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Width",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "ioValue": 250,
+      "currentEquation": "250"
     },
     {
       "name": "Length",
@@ -22,8 +22,8 @@
     },
     {
       "name": "Wthick",
-      "ioValue": 6,
-      "currentEquation": "6"
+      "ioValue": 11,
+      "currentEquation": "11"
     }
   ],
   "topLevel": true,
@@ -39,13 +39,13 @@
     {
       "atomType": "Molecule",
       "name": "Base",
-      "x": 0.3765112262521589,
-      "y": 0.32298136645962733,
+      "x": 0.37823834196891193,
+      "y": 0.3447204968944099,
       "uniqueID": "e1545e34-8875-4cc9-a124-d07bbc9f4543",
       "ioValues": [
         {
           "name": "Width2",
-          "ioValue": 300
+          "ioValue": 250
         },
         {
           "name": "Length",
@@ -57,7 +57,7 @@
         },
         {
           "name": "Wthickess",
-          "ioValue": 6,
+          "ioValue": 11,
           "currentEquation": "6"
         }
       ],
@@ -95,8 +95,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.4758203799654577,
-          "y": 0.42546583850931674,
+          "x": 0.5284974093264249,
+          "y": 0.4472049689440994,
           "uniqueID": "304c4246-b071-4f16-994f-f5bac39a39c1",
           "ioValues": [
             {
@@ -118,7 +118,7 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.5803108808290155,
+          "x": 0.6303972366148531,
           "y": 0.22981366459627328,
           "uniqueID": "e41f8cbb-0e10-4936-8af5-73f5f410a620",
           "ioValues": []
@@ -148,8 +148,8 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.772020725388601,
-          "y": 0.4503105590062112,
+          "x": 0.7797927461139896,
+          "y": 0.48136645962732916,
           "uniqueID": "f0341576-aba7-4cd9-a3cc-3d1f0971a57b",
           "ioValues": []
         },
@@ -162,7 +162,7 @@
           "ioValues": [
             {
               "name": "width",
-              "ioValue": 300,
+              "ioValue": 250,
               "currentEquation": "250"
             },
             {
@@ -201,7 +201,7 @@
                 },
                 {
                   "name": "width",
-                  "ioValue": 300
+                  "ioValue": 250
                 },
                 {
                   "name": "rad",
@@ -473,13 +473,13 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.36183074265975823,
-          "y": 0.8012422360248447,
+          "x": 0.3601036269430052,
+          "y": 0.8167701863354037,
           "uniqueID": "2f2ad727-12a6-4ee8-8a4e-31e749a3a38d",
           "ioValues": [
             {
               "name": "width",
-              "ioValue": 294,
+              "ioValue": 239,
               "currentEquation": "Width2 - Wthickess"
             },
             {
@@ -525,7 +525,7 @@
                 },
                 {
                   "name": "width",
-                  "ioValue": 294
+                  "ioValue": 239
                 },
                 {
                   "name": "rad",
@@ -681,11 +681,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 300
+              "ioValue": 250
             },
             {
               "name": "y",
-              "ioValue": 6
+              "ioValue": 11
             }
           ],
           "currentEquation": "x - y"
@@ -870,7 +870,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-90157f759108703093357e2b4d9958e0531172ac78c9e83fdda54c1803d3cc3e",
+            "geometry": "cut-fa84379086a6d8d1b7dd58311645ee67eeaa8983672b93460fed6532814db69f",
             "dimension": "3D",
             "tags": [
               "createdShape"
