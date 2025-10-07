@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Spice Rack 2",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "2d23eca4-6125-499d-823f-8c8e7ce3ca2e",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
