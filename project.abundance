@@ -39,7 +39,7 @@
       "uniqueID": "e1545e34-8875-4cc9-a124-d07bbc9f4543",
       "ioValues": [
         {
-          "name": "Length",
+          "name": "Width2",
           "ioValue": 250
         },
         {
@@ -49,6 +49,11 @@
         {
           "name": "Height",
           "ioValue": 50
+        },
+        {
+          "name": "Wthickess",
+          "ioValue": 6,
+          "currentEquation": "6"
         }
       ],
       "topLevel": false,
@@ -85,8 +90,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.48264248704663215,
-          "y": 0.4127329192546583,
+          "x": 0.4758203799654577,
+          "y": 0.42546583850931674,
           "uniqueID": "304c4246-b071-4f16-994f-f5bac39a39c1",
           "ioValues": [
             {
@@ -95,27 +100,29 @@
             },
             {
               "name": "yDist",
-              "ioValue": 25
+              "ioValue": 30,
+              "currentEquation": "30"
             },
             {
               "name": "zDist",
-              "ioValue": 75
+              "ioValue": 75,
+              "currentEquation": "75"
             }
           ]
         },
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.5914507772020725,
-          "y": 0.2046583850931677,
+          "x": 0.5803108808290155,
+          "y": 0.22981366459627328,
           "uniqueID": "e41f8cbb-0e10-4936-8af5-73f5f410a620",
           "ioValues": []
         },
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6458549222797928,
-          "y": 0.465527950310559,
+          "x": 0.6424870466321244,
+          "y": 0.6211180124223602,
           "uniqueID": "df65c0de-5770-4a64-a598-ca7935674983",
           "ioValues": [
             {
@@ -128,23 +135,24 @@
             },
             {
               "name": "zDist",
-              "ioValue": 5
+              "ioValue": 6,
+              "currentEquation": "Wthickess"
             }
           ]
         },
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.7754749568221071,
-          "y": 0.4627329192546583,
+          "x": 0.772020725388601,
+          "y": 0.4503105590062112,
           "uniqueID": "f0341576-aba7-4cd9-a3cc-3d1f0971a57b",
           "ioValues": []
         },
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.23393782383419692,
-          "y": 0.2077639751552795,
+          "x": 0.25129533678756477,
+          "y": 0.23602484472049692,
           "uniqueID": "a0b98fef-327d-443a-9f7b-545987432430",
           "ioValues": [
             {
@@ -302,8 +310,8 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.21761658031088085,
-          "y": 0.46894409937888204,
+          "x": 0.23575129533678757,
+          "y": 0.5496894409937888,
           "uniqueID": "bfa3e3b6-54fb-47b0-9c0d-def0139c9ba4",
           "ioValues": [
             {
@@ -460,25 +468,33 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.33592400690846286,
-          "y": 0.7204968944099379,
+          "x": 0.348013816925734,
+          "y": 0.7608695652173914,
           "uniqueID": "2f2ad727-12a6-4ee8-8a4e-31e749a3a38d",
           "ioValues": [
             {
               "name": "width",
-              "ioValue": 244
+              "ioValue": 244,
+              "currentEquation": "Width2 - Wthickess"
             },
             {
               "name": "length",
-              "ioValue": 94
+              "ioValue": 94,
+              "currentEquation": "Length - Wthickess"
             },
             {
               "name": "radius",
-              "ioValue": 50
+              "ioValue": 50,
+              "currentEquation": "50"
             },
             {
               "name": "height",
-              "ioValue": 50
+              "ioValue": 50,
+              "currentEquation": "Height"
+            },
+            {
+              "name": "Width",
+              "ioValue": 1
             }
           ],
           "topLevel": false,
@@ -617,9 +633,9 @@
         },
         {
           "atomType": "Input",
-          "name": "Width",
+          "name": "Width2",
           "x": 0.033,
-          "y": 0.2577639751552795,
+          "y": 0.36645962732919257,
           "uniqueID": "5a6b0e62-a773-4785-a42d-4e30e23e7455",
           "ioValues": [],
           "type": "number"
@@ -628,7 +644,7 @@
           "atomType": "Input",
           "name": "Length",
           "x": 0.033,
-          "y": 0.5,
+          "y": 0.546583850931677,
           "uniqueID": "a11a8bfe-4991-4c81-b92d-180443f45ed0",
           "ioValues": [],
           "type": "number"
@@ -637,8 +653,17 @@
           "atomType": "Input",
           "name": "Height",
           "x": 0.033,
-          "y": 0.6459627329192547,
+          "y": 0.7329192546583851,
           "uniqueID": "e3cfd977-655d-441a-a5d6-da874b67237a",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "Wthickess",
+          "x": 0.033,
+          "y": 0.8819875776397516,
+          "uniqueID": "069ddaa6-60cc-4110-b920-1dd2be01126a",
           "ioValues": [],
           "type": "number"
         }
@@ -907,7 +932,7 @@
     },
     {
       "ap1Name": "number or geometry",
-      "ap2Name": "Length",
+      "ap2Name": "Width2",
       "ap1ID": "dfaa8cb2-3c5b-4289-88e2-ccdcfcb956ca",
       "ap2ID": "e1545e34-8875-4cc9-a124-d07bbc9f4543"
     },
