@@ -35,8 +35,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.7918825561312608,
-      "y": 0.2950310559006211,
+      "x": 0.7962003454231434,
+      "y": 0.3136645962732919,
       "uniqueID": "958f6234-db6f-43ad-8c43-338f96120d80",
       "ioValues": [
         {
@@ -69,9 +69,38 @@
           }
         },
         {
-          "name": "Shape 3",
+          "name": "Shape 4",
           "ioValue": {
-            "geometry": "move-ea76e36ac97ba35059499ebfb88f26a744a3a14826448505ff68e49586b705ad",
+            "geometry": "move-594be303c98e76d41ffc04a783e4cb6c9cf68d3185187d2bb772009510e2d433",
+            "tags": [
+              "keepout"
+            ],
+            "bom": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#D9544D",
+            "dimension": "3D"
+          }
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": {
+            "geometry": "move-a3e1632982e30fae338438f56be9a0410ad441bb9991f19b12db54b49035eddf",
             "tags": [
               "keepout"
             ],
@@ -138,8 +167,8 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.5716753022452504,
-      "y": 0.47204968944099385,
+      "x": 0.5354058721934369,
+      "y": 0.5093167701863354,
       "uniqueID": "cc8b1b51-f356-4452-b50e-f50c9289c35b",
       "ioValues": [
         {
@@ -153,27 +182,6 @@
         {
           "name": "z-axis degrees",
           "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.6649395509499136,
-      "y": 0.4161490683229814,
-      "uniqueID": "c5e82cfc-63b1-40f6-afde-e16a76997e66",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 60
-        },
-        {
-          "name": "yDist",
-          "ioValue": 55
-        },
-        {
-          "name": "zDist",
-          "ioValue": 40
         }
       ]
     },
@@ -301,8 +309,8 @@
     {
       "atomType": "Molecule",
       "name": "Base",
-      "x": 0.3773747841105354,
-      "y": 0.18322981366459629,
+      "x": 0.3739205526770294,
+      "y": 0.18944099378881987,
       "uniqueID": "e1545e34-8875-4cc9-a124-d07bbc9f4543",
       "ioValues": [
         {
@@ -1036,8 +1044,8 @@
     {
       "atomType": "Molecule",
       "name": "Molecule",
-      "x": 0.3842832469775475,
-      "y": 0.40372670807453415,
+      "x": 0.38082901554404147,
+      "y": 0.391304347826087,
       "uniqueID": "862d9916-bad6-4926-a2e4-fe7e655365d3",
       "ioValues": [],
       "topLevel": false,
@@ -1081,18 +1089,19 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.4758203799654577,
-          "y": 0.6490683229813664,
+          "x": 0.46804835924006905,
+          "y": 0.6459627329192547,
           "uniqueID": "492e1abb-e8c7-4442-8df7-c28012f83a7a",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 5,
-              "currentEquation": "5"
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -5,
+              "currentEquation": "-5"
             },
             {
               "name": "zDist",
@@ -1137,7 +1146,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-3ce92f522683f84adc6677f83c8d596093ff9dadef5781825d6d1d336241dc68",
+                "geometry": "move-48acde18ef4069fbdce35a8c83a65f2f95f4d77c8e34d3221b44b6286b2a9838",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1228,9 +1237,83 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.6718480138169257,
+      "y": 0.4440993788819876,
+      "uniqueID": "c6881f4c-c7ad-4d16-9def-6078ea0e7187",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 60
+        },
+        {
+          "name": "yDist",
+          "ioValue": 55
+        },
+        {
+          "name": "zDist",
+          "ioValue": 40
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.6813471502590674,
+      "y": 0.7142857142857143,
+      "uniqueID": "a92b9289-6adc-4a50-8462-9edc46504fc0",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -60,
+          "currentEquation": "-60"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 55
+        },
+        {
+          "name": "zDist",
+          "ioValue": 40
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.8497409326424871,
+      "y": 0.7484472049689441,
+      "uniqueID": "4b49905a-7aed-495e-85e9-bb1ba17f5759",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Spice Rack 2"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Spice Rack 2"
     }
   ],
   "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "958f6234-db6f-43ad-8c43-338f96120d80",
+      "ap2ID": "4b49905a-7aed-495e-85e9-bb1ba17f5759"
+    },
     {
       "ap1Name": "geometry",
       "ap2Name": "number or geometry",
@@ -1265,13 +1348,13 @@
       "ap1Name": "geometry",
       "ap2Name": "geometry",
       "ap1ID": "cc8b1b51-f356-4452-b50e-f50c9289c35b",
-      "ap2ID": "c5e82cfc-63b1-40f6-afde-e16a76997e66"
+      "ap2ID": "c6881f4c-c7ad-4d16-9def-6078ea0e7187"
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "Shape 3",
-      "ap1ID": "c5e82cfc-63b1-40f6-afde-e16a76997e66",
-      "ap2ID": "958f6234-db6f-43ad-8c43-338f96120d80"
+      "ap2Name": "geometry",
+      "ap1ID": "cc8b1b51-f356-4452-b50e-f50c9289c35b",
+      "ap2ID": "a92b9289-6adc-4a50-8462-9edc46504fc0"
     },
     {
       "ap1Name": "geometry or number",
@@ -1284,6 +1367,18 @@
       "ap2Name": "geometry",
       "ap1ID": "862d9916-bad6-4926-a2e4-fe7e655365d3",
       "ap2ID": "cc8b1b51-f356-4452-b50e-f50c9289c35b"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 4",
+      "ap1ID": "c6881f4c-c7ad-4d16-9def-6078ea0e7187",
+      "ap2ID": "958f6234-db6f-43ad-8c43-338f96120d80"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 5",
+      "ap1ID": "a92b9289-6adc-4a50-8462-9edc46504fc0",
+      "ap2ID": "958f6234-db6f-43ad-8c43-338f96120d80"
     }
   ],
   "unitsKey": "MM",
