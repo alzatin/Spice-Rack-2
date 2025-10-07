@@ -62,21 +62,22 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.5803108808290155,
-      "y": 0.3322981366459627,
+      "x": 0.5872193436960277,
+      "y": 0.33540372670807456,
       "uniqueID": "cf7467a2-a71f-4206-a34f-05588794493d",
       "ioValues": []
     },
     {
       "atomType": "GitHubMolecule",
       "name": "Rounded-rectangle-rep",
-      "x": 0.18480138169257343,
-      "y": 0.2391304347826087,
+      "x": 0.1839378238341969,
+      "y": 0.2577639751552795,
       "uniqueID": "7bd41214-231b-4121-81e8-ec318b6815e2",
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 250
+          "ioValue": 250,
+          "currentEquation": "250"
         },
         {
           "name": "length",
