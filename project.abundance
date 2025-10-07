@@ -473,8 +473,8 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.3238341968911917,
-          "y": 0.7701863354037267,
+          "x": 0.36183074265975823,
+          "y": 0.8012422360248447,
           "uniqueID": "2f2ad727-12a6-4ee8-8a4e-31e749a3a38d",
           "ioValues": [
             {
@@ -671,6 +671,24 @@
           "uniqueID": "069ddaa6-60cc-4110-b920-1dd2be01126a",
           "ioValues": [],
           "type": "number"
+        },
+        {
+          "atomType": "Equation",
+          "name": "Equation",
+          "x": 0.23834196891191708,
+          "y": 0.7453416149068324,
+          "uniqueID": "91d7f5d1-6f80-4543-b54d-95ea4a08e82d",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 300
+            },
+            {
+              "name": "y",
+              "ioValue": 6
+            }
+          ],
+          "currentEquation": "x - y"
         }
       ],
       "allConnectors": [
@@ -730,6 +748,12 @@
         },
         {
           "ap1Name": "number or geometry",
+          "ap2Name": "x",
+          "ap1ID": "5a6b0e62-a773-4785-a42d-4e30e23e7455",
+          "ap2ID": "91d7f5d1-6f80-4543-b54d-95ea4a08e82d"
+        },
+        {
+          "ap1Name": "number or geometry",
           "ap2Name": "length",
           "ap1ID": "a11a8bfe-4991-4c81-b92d-180443f45ed0",
           "ap2ID": "a0b98fef-327d-443a-9f7b-545987432430"
@@ -739,6 +763,18 @@
           "ap2Name": "height",
           "ap1ID": "e3cfd977-655d-441a-a5d6-da874b67237a",
           "ap2ID": "a0b98fef-327d-443a-9f7b-545987432430"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "y",
+          "ap1ID": "069ddaa6-60cc-4110-b920-1dd2be01126a",
+          "ap2ID": "91d7f5d1-6f80-4543-b54d-95ea4a08e82d"
+        },
+        {
+          "ap1Name": "result",
+          "ap2Name": "width",
+          "ap1ID": "91d7f5d1-6f80-4543-b54d-95ea4a08e82d",
+          "ap2ID": "2f2ad727-12a6-4ee8-8a4e-31e749a3a38d"
         }
       ],
       "fileTypeVersion": 1,
@@ -827,8 +863,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.770293609671848,
-      "y": 0.3198757763975155,
+      "x": 0.7711571675302245,
+      "y": 0.35714285714285715,
       "uniqueID": "958f6234-db6f-43ad-8c43-338f96120d80",
       "ioValues": [
         {
