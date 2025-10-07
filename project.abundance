@@ -1,15 +1,56 @@
 {
-    "atomType": "Molecule",
-    "name": "Spice Rack 2",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "2d23eca4-6125-499d-823f-8c8e7ce3ca2e",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Spice Rack 2",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "2d23eca4-6125-499d-823f-8c8e7ce3ca2e",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "194c496f-a9cf-4022-9fd2-991adba11348",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.2651122625215889,
+      "y": 0.2888198757763975,
+      "uniqueID": "c5db0f2b-9b39-43fc-8866-22b2865c2826",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.2763385146804836,
+      "y": 0.5496894409937888,
+      "uniqueID": "1dd2c23d-4255-4818-8b3e-b75de85d2fbc",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 80,
+          "currentEquation": "80"
+        },
+        {
+          "name": "y length",
+          "ioValue": 500,
+          "currentEquation": "500"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
