@@ -39,8 +39,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.420552677029361,
-      "y": 0.47204968944099385,
+      "x": 0.43264248704663216,
+      "y": 0.4627329192546583,
       "uniqueID": "4aa7c59a-ba3e-48d8-b42d-c14f75a88895",
       "ioValues": [
         {
@@ -49,8 +49,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 100,
-          "currentEquation": "100"
+          "ioValue": 25,
+          "currentEquation": "25"
         },
         {
           "name": "zDist",
@@ -62,8 +62,8 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.5872193436960277,
-      "y": 0.33540372670807456,
+      "x": 0.5414507772020725,
+      "y": 0.2546583850931677,
       "uniqueID": "cf7467a2-a71f-4206-a34f-05588794493d",
       "ioValues": []
     },
@@ -394,19 +394,23 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 250
+          "ioValue": 244,
+          "currentEquation": "244"
         },
         {
           "name": "length",
-          "ioValue": 100
+          "ioValue": 94,
+          "currentEquation": "94"
         },
         {
           "name": "radius",
-          "ioValue": 50
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "height",
-          "ioValue": 50
+          "ioValue": 50,
+          "currentEquation": "50"
         }
       ],
       "topLevel": false,
@@ -432,7 +436,7 @@
             },
             {
               "name": "width",
-              "ioValue": 250
+              "ioValue": 244
             },
             {
               "name": "rad",
@@ -440,7 +444,7 @@
             },
             {
               "name": "length",
-              "ioValue": 100
+              "ioValue": 94
             }
           ],
           "codeVersion": 1,
@@ -542,6 +546,36 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5578583765112263,
+      "y": 0.6180124223602484,
+      "uniqueID": "33c9764b-40f3-4dc8-a079-0ba721158abf",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5,
+          "currentEquation": "5"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "name": "Difference",
+      "x": 0.7029360967184801,
+      "y": 0.40372670807453415,
+      "uniqueID": "cce15307-bcfd-4645-853b-871cf8e5dfab",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -558,6 +592,12 @@
       "ap2ID": "cf7467a2-a71f-4206-a34f-05588794493d"
     },
     {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry1",
+      "ap1ID": "cf7467a2-a71f-4206-a34f-05588794493d",
+      "ap2ID": "cce15307-bcfd-4645-853b-871cf8e5dfab"
+    },
+    {
       "ap1Name": "geometry or number",
       "ap2Name": "geometry1",
       "ap1ID": "7bd41214-231b-4121-81e8-ec318b6815e2",
@@ -568,6 +608,18 @@
       "ap2Name": "geometry",
       "ap1ID": "60b68fcb-e6b6-430f-83a9-9cdcbffbd5e6",
       "ap2ID": "35118ee3-e00e-45c2-b82d-9fdc6d5fa4b7"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "d4f7df0e-ec4c-401a-84b6-393fbc2a7fe1",
+      "ap2ID": "33c9764b-40f3-4dc8-a079-0ba721158abf"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry2",
+      "ap1ID": "33c9764b-40f3-4dc8-a079-0ba721158abf",
+      "ap2ID": "cce15307-bcfd-4645-853b-871cf8e5dfab"
     }
   ],
   "unitsKey": "MM",
