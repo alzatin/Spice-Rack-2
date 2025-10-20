@@ -11,11 +11,13 @@
     },
     {
       "name": "Length",
-      "ioValue": 100
+      "ioValue": 70,
+      "currentEquation": "70"
     },
     {
       "name": "Height",
-      "ioValue": 50
+      "ioValue": 50,
+      "currentEquation": "50"
     },
     {
       "name": "Wthick",
@@ -42,7 +44,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-cut-232b3fd8-50-250-50-100-0-move-rotate-232b3fd8-150-200-50-100-0-90-0-0-0-30-75-move-232b3fd8-50-239-50-94-0-0-0-6",
+            "geometry": "cut-cut-232b3fd8-50-250-50-70-0-move-rotate-232b3fd8-150-200-50-100-0-90-0-0-0-30-75-move-232b3fd8-50-239-50-94-0-0-0-6",
             "dimension": "3D",
             "tags": [
               "createdShape"
@@ -71,7 +73,7 @@
         {
           "name": "Shape 4",
           "ioValue": {
-            "geometry": "move-rotate-fuse-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-assemblyFuse-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5-move-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5-90-0-0-60-45-40",
+            "geometry": "move-rotate-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-90-0-0-60-46-40",
             "tags": [
               "keepout"
             ],
@@ -100,7 +102,7 @@
         {
           "name": "Shape 5",
           "ioValue": {
-            "geometry": "move-rotate-fuse-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-assemblyFuse-move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5-move-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5-90-0-0--60-45-40",
+            "geometry": "move-rotate-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-90-0-0--60-46-40",
             "tags": [
               "keepout"
             ],
@@ -188,8 +190,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6530201342281879,
-      "y": 0.4347826086956522,
+      "x": 0.6503355704697986,
+      "y": 0.4472049689440994,
       "uniqueID": "c6881f4c-c7ad-4d16-9def-6078ea0e7187",
       "ioValues": [
         {
@@ -198,8 +200,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 46,
+          "currentEquation": "46"
         },
         {
           "name": "zDist",
@@ -210,8 +212,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6986577181208053,
-      "y": 0.7763975155279503,
+      "x": 0.6946308724832215,
+      "y": 0.7857142857142857,
       "uniqueID": "a92b9289-6adc-4a50-8462-9edc46504fc0",
       "ioValues": [
         {
@@ -220,8 +222,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 45,
-          "currentEquation": "45"
+          "ioValue": 46,
+          "currentEquation": "46"
         },
         {
           "name": "zDist",
@@ -232,7 +234,7 @@
     {
       "atomType": "Export",
       "name": "Export",
-      "x": 0.8497409326424871,
+      "x": 0.8442953020134228,
       "y": 0.7484472049689441,
       "uniqueID": "4b49905a-7aed-495e-85e9-bb1ba17f5759",
       "ioValues": [
@@ -406,117 +408,12 @@
           ]
         },
         {
-          "atomType": "Move",
-          "name": "Move",
-          "x": 0.44966442953020136,
-          "y": 0.24223602484472048,
-          "uniqueID": "492e1abb-e8c7-4442-8df7-c28012f83a7a",
-          "ioValues": [
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 5,
-              "currentEquation": "5"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 5,
-              "currentEquation": "5"
-            }
-          ]
-        },
-        {
           "atomType": "Fusion",
           "name": "Fusion",
           "x": 0.625503355704698,
           "y": 0.2732919254658385,
           "uniqueID": "54afd27d-5074-4339-be2e-24aa883df489",
           "ioValues": [
-            {
-              "name": "Shape 3",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": "move-cut-extrude-move-circle-1.65-0-0-0-{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        -4
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#DBADA9",
-                    "bom": [
-                      {
-                        "BOMitemName": "#6 Wood Screw",
-                        "numberNeeded": 1,
-                        "costUSD": 0.1,
-                        "source": "www.example.com"
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-loft-move-circle-1.65-0-0-0-circle-4.25-0-5-5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#DBADA9",
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            },
             {
               "name": "Shape 5",
               "ioValue": {
@@ -1123,12 +1020,6 @@
       "allConnectors": [
         {
           "ap1Name": "geometry",
-          "ap2Name": "Shape 3",
-          "ap1ID": "492e1abb-e8c7-4442-8df7-c28012f83a7a",
-          "ap2ID": "54afd27d-5074-4339-be2e-24aa883df489"
-        },
-        {
-          "ap1Name": "geometry",
           "ap2Name": "geometry",
           "ap1ID": "54afd27d-5074-4339-be2e-24aa883df489",
           "ap2ID": "6fd1cb90-95ca-439d-a28a-b1808eb87da7"
@@ -1147,12 +1038,6 @@
         },
         {
           "ap1Name": "geometry or number",
-          "ap2Name": "geometry",
-          "ap1ID": "0d5a8f44-f5f0-402d-9317-d04309b1c0b2",
-          "ap2ID": "492e1abb-e8c7-4442-8df7-c28012f83a7a"
-        },
-        {
-          "ap1Name": "geometry or number",
           "ap2Name": "Shape 5",
           "ap1ID": "fe4136a8-96df-4197-bab3-c9575cc457c9",
           "ap2ID": "54afd27d-5074-4339-be2e-24aa883df489"
@@ -1164,8 +1049,8 @@
     {
       "atomType": "Molecule",
       "name": "Base",
-      "x": 0.3739205526770294,
-      "y": 0.18944099378881987,
+      "x": 0.2993288590604027,
+      "y": 0.3726708074534162,
       "uniqueID": "e1545e34-8875-4cc9-a124-d07bbc9f4543",
       "ioValues": [
         {
@@ -1174,7 +1059,7 @@
         },
         {
           "name": "Length",
-          "ioValue": 100
+          "ioValue": 70
         },
         {
           "name": "Height",
@@ -1219,8 +1104,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.5284974093264249,
-          "y": 0.4472049689440994,
+          "x": 0.5228187919463086,
+          "y": 0.48447204968944096,
           "uniqueID": "304c4246-b071-4f16-994f-f5bac39a39c1",
           "ioValues": [
             {
@@ -1240,16 +1125,16 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.6303972366148531,
-          "y": 0.22981366459627328,
+          "x": 0.6295302013422819,
+          "y": 0.2267080745341615,
           "uniqueID": "e41f8cbb-0e10-4936-8af5-73f5f410a620",
           "ioValues": []
         },
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.6424870466321244,
-          "y": 0.6211180124223602,
+          "x": 0.625503355704698,
+          "y": 0.65527950310559,
           "uniqueID": "df65c0de-5770-4a64-a598-ca7935674983",
           "ioValues": [
             {
@@ -1270,8 +1155,8 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.7797927461139896,
-          "y": 0.48136645962732916,
+          "x": 0.7838926174496644,
+          "y": 0.5,
           "uniqueID": "f0341576-aba7-4cd9-a3cc-3d1f0971a57b",
           "ioValues": []
         },
@@ -1314,8 +1199,8 @@
         {
           "atomType": "Equation",
           "name": "x - y",
-          "x": 0.23834196891191708,
-          "y": 0.7453416149068324,
+          "x": 0.1993288590604027,
+          "y": 0.6987577639751553,
           "uniqueID": "91d7f5d1-6f80-4543-b54d-95ea4a08e82d",
           "ioValues": [
             {
@@ -1332,8 +1217,8 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.25129533678756477,
-          "y": 0.23602484472049692,
+          "x": 0.24563758389261744,
+          "y": 0.2267080745341615,
           "uniqueID": "a0b98fef-327d-443a-9f7b-545987432430",
           "ioValues": [
             {
@@ -1342,11 +1227,12 @@
             },
             {
               "name": "length",
-              "ioValue": 100
+              "ioValue": 70
             },
             {
               "name": "radius",
-              "ioValue": 50
+              "ioValue": 40,
+              "currentEquation": "40"
             },
             {
               "name": "height",
@@ -1380,11 +1266,11 @@
                 },
                 {
                   "name": "rad",
-                  "ioValue": 50
+                  "ioValue": 40
                 },
                 {
                   "name": "length",
-                  "ioValue": 100
+                  "ioValue": 70
                 }
               ],
               "codeVersion": 1,
@@ -1490,8 +1376,8 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.27181208053691275,
-          "y": 0.5279503105590062,
+          "x": 0.2644295302013423,
+          "y": 0.5217391304347826,
           "uniqueID": "bfa3e3b6-54fb-47b0-9c0d-def0139c9ba4",
           "ioValues": [
             {
@@ -1500,11 +1386,13 @@
             },
             {
               "name": "length",
-              "ioValue": 100
+              "ioValue": 100,
+              "currentEquation": "100"
             },
             {
               "name": "radius",
-              "ioValue": 50
+              "ioValue": 40,
+              "currentEquation": "40"
             },
             {
               "name": "height",
@@ -1538,7 +1426,7 @@
                 },
                 {
                   "name": "rad",
-                  "ioValue": 50
+                  "ioValue": 40
                 },
                 {
                   "name": "length",
@@ -1648,8 +1536,8 @@
         {
           "atomType": "GitHubMolecule",
           "name": "Rounded-rectangle-rep",
-          "x": 0.3601036269430052,
-          "y": 0.8167701863354037,
+          "x": 0.3429530201342282,
+          "y": 0.8322981366459627,
           "uniqueID": "2f2ad727-12a6-4ee8-8a4e-31e749a3a38d",
           "ioValues": [
             {
@@ -1659,7 +1547,7 @@
             },
             {
               "name": "length",
-              "ioValue": 94,
+              "ioValue": 59,
               "currentEquation": "Length - Wthickess"
             },
             {
@@ -1703,7 +1591,7 @@
                 },
                 {
                   "name": "length",
-                  "ioValue": 94
+                  "ioValue": 59
                 }
               ],
               "codeVersion": 1,
