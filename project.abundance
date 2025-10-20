@@ -7,23 +7,19 @@
   "ioValues": [
     {
       "name": "Width",
-      "ioValue": 250,
-      "currentEquation": "250"
+      "ioValue": 250
     },
     {
       "name": "Length",
-      "ioValue": 70,
-      "currentEquation": "70"
+      "ioValue": 70
     },
     {
       "name": "Height",
-      "ioValue": 50,
-      "currentEquation": "50"
+      "ioValue": 50
     },
     {
       "name": "Wthick",
-      "ioValue": 5,
-      "currentEquation": "5"
+      "ioValue": 5
     }
   ],
   "topLevel": true,
@@ -39,8 +35,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.7962003454231434,
-      "y": 0.3136645962732919,
+      "x": 0.7542517006802721,
+      "y": 0.3819875776397516,
       "uniqueID": "958f6234-db6f-43ad-8c43-338f96120d80",
       "ioValues": [
         {
@@ -75,7 +71,7 @@
         {
           "name": "Shape 4",
           "ioValue": {
-            "geometry": "move-rotate-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-90-0-0-60-31-40",
+            "geometry": "move-rotate-assemblyFuse-f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-2-f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-3-90-0-0-60-31-40",
             "tags": [
               "keepout"
             ],
@@ -104,7 +100,7 @@
         {
           "name": "Shape 5",
           "ioValue": {
-            "geometry": "move-rotate-assemblyFuse-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2-f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3-90-0-0--60-31-40",
+            "geometry": "move-rotate-assemblyFuse-f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-2-f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-3-90-0-0--60-31-40",
             "tags": [
               "keepout"
             ],
@@ -135,8 +131,8 @@
     {
       "atomType": "Input",
       "name": "Width",
-      "x": 0.031349999999999996,
-      "y": 0.19,
+      "x": 0.0264,
+      "y": 0.16,
       "uniqueID": "dfaa8cb2-3c5b-4289-88e2-ccdcfcb956ca",
       "ioValues": [],
       "type": "number"
@@ -144,8 +140,8 @@
     {
       "atomType": "Input",
       "name": "Length",
-      "x": 0.031349999999999996,
-      "y": 0.28500000000000003,
+      "x": 0.0264,
+      "y": 0.24,
       "uniqueID": "82919ce6-cbac-4442-8f67-f46f4a0f04f5",
       "ioValues": [],
       "type": "number"
@@ -153,8 +149,8 @@
     {
       "atomType": "Input",
       "name": "Height",
-      "x": 0.031349999999999996,
-      "y": 0.38,
+      "x": 0.0264,
+      "y": 0.32,
       "uniqueID": "a25668ee-8a16-4116-b01c-3888de914bba",
       "ioValues": [],
       "type": "number"
@@ -162,8 +158,8 @@
     {
       "atomType": "Input",
       "name": "Wthick",
-      "x": 0.031349999999999996,
-      "y": 0.475,
+      "x": 0.0264,
+      "y": 0.4,
       "uniqueID": "8ef079a2-3a33-4745-8cf1-79dd7ef9f9a2",
       "ioValues": [],
       "type": "number"
@@ -202,8 +198,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 31,
-          "currentEquation": "31"
+          "ioValue": 31
         },
         {
           "name": "zDist",
@@ -224,8 +219,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 31,
-          "currentEquation": "31"
+          "ioValue": 31
         },
         {
           "name": "zDist",
@@ -423,7 +417,7 @@
                   {
                     "geometry": [
                       {
-                        "geometry": "f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-2",
+                        "geometry": "f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-2",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -454,7 +448,7 @@
                         ]
                       },
                       {
-                        "geometry": "f56d8848-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-1.2-3",
+                        "geometry": "f56d8848-1.2-{\"geometry\":[{\"geometry\":\"cut-extrude-move-circle-1.65-0-0-0-{\\\"origin\\\":[0,0,-4],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--35-loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,-4],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[{\"BOMitemName\":\"#6 Wood Screw\",\"numberNeeded\":1,\"costUSD\":0.1,\"source\":\"www.example.com\"}]},{\"geometry\":\"loft-move-circle-1.65-0-0-0-circle-4.25\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#DBADA9\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"tags\":[],\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"3D\"}-3",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -612,6 +606,10 @@
                   "ioValue": ""
                 },
                 {
+                  "name": "Shape 3",
+                  "ioValue": ""
+                },
+                {
                   "name": "Shape 1",
                   "ioValue": {
                     "geometry": "move-circle-1.65-0-0-0",
@@ -664,10 +662,6 @@
                     "color": "#aad7f2",
                     "bom": []
                   }
-                },
-                {
-                  "name": "Shape 3",
-                  "ioValue": ""
                 }
               ],
               "closedSelection": 0
@@ -916,8 +910,7 @@
           "ioValues": [
             {
               "name": "Scale Factor",
-              "ioValue": 1.2,
-              "currentEquation": "1.2"
+              "ioValue": 1.2
             }
           ],
           "topLevel": false,
@@ -933,8 +926,8 @@
             {
               "atomType": "Input",
               "name": "Geometry",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "e6d3d799-78cc-4520-926c-e0cbea559135",
               "ioValues": [],
               "type": "number"
@@ -942,8 +935,8 @@
             {
               "atomType": "Input",
               "name": "Scale Factor",
-              "x": 0.031349999999999996,
-              "y": 0.28500000000000003,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "39fe2b58-da65-4b08-b745-a88590cbd7cb",
               "ioValues": [],
               "type": "number"
@@ -1116,8 +1109,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 20
             },
             {
               "name": "zDist",
@@ -1146,8 +1138,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1167,8 +1158,8 @@
         {
           "atomType": "Input",
           "name": "Width2",
-          "x": 0.031349999999999996,
-          "y": 0.19,
+          "x": 0.0264,
+          "y": 0.16,
           "uniqueID": "5a6b0e62-a773-4785-a42d-4e30e23e7455",
           "ioValues": [],
           "type": "number"
@@ -1176,8 +1167,8 @@
         {
           "atomType": "Input",
           "name": "Length",
-          "x": 0.031349999999999996,
-          "y": 0.28500000000000003,
+          "x": 0.0264,
+          "y": 0.24,
           "uniqueID": "a11a8bfe-4991-4c81-b92d-180443f45ed0",
           "ioValues": [],
           "type": "number"
@@ -1185,8 +1176,8 @@
         {
           "atomType": "Input",
           "name": "Height",
-          "x": 0.031349999999999996,
-          "y": 0.38,
+          "x": 0.0264,
+          "y": 0.32,
           "uniqueID": "e3cfd977-655d-441a-a5d6-da874b67237a",
           "ioValues": [],
           "type": "number"
@@ -1194,8 +1185,8 @@
         {
           "atomType": "Input",
           "name": "Wthickess",
-          "x": 0.031349999999999996,
-          "y": 0.475,
+          "x": 0.0264,
+          "y": 0.4,
           "uniqueID": "069ddaa6-60cc-4110-b920-1dd2be01126a",
           "ioValues": [],
           "type": "number"
@@ -1235,8 +1226,7 @@
             },
             {
               "name": "radius",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "height",
@@ -1283,8 +1273,8 @@
             {
               "atomType": "Input",
               "name": "width",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "6b1713d7-90c4-4f82-b83b-9389dc0722a7",
               "ioValues": [],
               "type": "number"
@@ -1292,8 +1282,8 @@
             {
               "atomType": "Input",
               "name": "length",
-              "x": 0.031349999999999996,
-              "y": 0.28500000000000003,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "4cabf542-04b3-4bad-a75b-603be1583abf",
               "ioValues": [],
               "type": "number"
@@ -1301,8 +1291,8 @@
             {
               "atomType": "Input",
               "name": "radius",
-              "x": 0.031349999999999996,
-              "y": 0.38,
+              "x": 0.0264,
+              "y": 0.32,
               "uniqueID": "6454ac05-05be-4e9a-acec-9acc7eb17c4b",
               "ioValues": [],
               "type": "number"
@@ -1310,8 +1300,8 @@
             {
               "atomType": "Input",
               "name": "height",
-              "x": 0.031349999999999996,
-              "y": 0.475,
+              "x": 0.0264,
+              "y": 0.4,
               "uniqueID": "dca41e2c-b77c-4ce1-988c-5fe4ff05d009",
               "ioValues": [],
               "type": "number"
@@ -1390,13 +1380,11 @@
             },
             {
               "name": "length",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "radius",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "height",
@@ -1443,8 +1431,8 @@
             {
               "atomType": "Input",
               "name": "width",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "38697466-b160-448a-9fc6-dc3a120eb772",
               "ioValues": [],
               "type": "number"
@@ -1452,8 +1440,8 @@
             {
               "atomType": "Input",
               "name": "length",
-              "x": 0.031349999999999996,
-              "y": 0.28500000000000003,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "b3600dfd-c1e9-4fb0-8b4e-e657bac4af56",
               "ioValues": [],
               "type": "number"
@@ -1461,8 +1449,8 @@
             {
               "atomType": "Input",
               "name": "radius",
-              "x": 0.031349999999999996,
-              "y": 0.38,
+              "x": 0.0264,
+              "y": 0.32,
               "uniqueID": "c1df3169-acd6-4871-8477-213e1d1ef763",
               "ioValues": [],
               "type": "number"
@@ -1470,8 +1458,8 @@
             {
               "atomType": "Input",
               "name": "height",
-              "x": 0.031349999999999996,
-              "y": 0.475,
+              "x": 0.0264,
+              "y": 0.4,
               "uniqueID": "63554e8c-d258-42d6-972b-9d4b0f150195",
               "ioValues": [],
               "type": "number"
@@ -1556,8 +1544,7 @@
             },
             {
               "name": "radius",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "height",
@@ -1605,8 +1592,8 @@
             {
               "atomType": "Input",
               "name": "width",
-              "x": 0.031349999999999996,
-              "y": 0.19,
+              "x": 0.0264,
+              "y": 0.16,
               "uniqueID": "b3f948c9-cc56-4c0f-8b7d-d20194806081",
               "ioValues": [],
               "type": "number"
@@ -1614,8 +1601,8 @@
             {
               "atomType": "Input",
               "name": "length",
-              "x": 0.031349999999999996,
-              "y": 0.28500000000000003,
+              "x": 0.0264,
+              "y": 0.24,
               "uniqueID": "121cdb7f-30e9-4b39-a786-cb4bd4148569",
               "ioValues": [],
               "type": "number"
@@ -1623,8 +1610,8 @@
             {
               "atomType": "Input",
               "name": "radius",
-              "x": 0.031349999999999996,
-              "y": 0.38,
+              "x": 0.0264,
+              "y": 0.32,
               "uniqueID": "7b1d9d91-7668-4bc2-b452-20b7e233ea0f",
               "ioValues": [],
               "type": "number"
@@ -1632,8 +1619,8 @@
             {
               "atomType": "Input",
               "name": "height",
-              "x": 0.031349999999999996,
-              "y": 0.475,
+              "x": 0.0264,
+              "y": 0.4,
               "uniqueID": "7f7bbe6a-6200-46d4-92b9-e5a3c78c9010",
               "ioValues": [],
               "type": "number"
