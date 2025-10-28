@@ -167,7 +167,7 @@
     {
       "atomType": "Rotate",
       "name": "Rotate",
-      "x": 0.4779938587512795,
+      "x": 0.4268167860798362,
       "y": 0.5124223602484472,
       "uniqueID": "cc8b1b51-f356-4452-b50e-f50c9289c35b",
       "ioValues": [
@@ -188,8 +188,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.5854657113613101,
-      "y": 0.2981366459627329,
+      "x": 0.4994882292732855,
+      "y": 0.2701863354037267,
       "uniqueID": "c6881f4c-c7ad-4d16-9def-6078ea0e7187",
       "ioValues": [
         {
@@ -251,6 +251,19 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Spice Rack 2"
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.5158648925281474,
+      "y": 0.8757763975155279,
+      "uniqueID": "c12a9856-52f9-4a04-8ff0-a2b44f936a5f",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -1775,19 +1788,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.5158648925281474,
-      "y": 0.8757763975155279,
-      "uniqueID": "c12a9856-52f9-4a04-8ff0-a2b44f936a5f",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
